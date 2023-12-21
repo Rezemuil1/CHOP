@@ -1,0 +1,165 @@
+.vacancy {
+    background-color: #F2F2F2;
+    padding: 80px 0 70px;
+}
+
+.open__vacancy {
+    padding: 66px 0 90px;
+}
+
+.open__vacancy-title {
+    color: #343434;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.open__vacancy-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+    margin: 45px 0 27px
+}
+
+.duties, .chart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.open__vacancy-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+}
+
+.duties ul, .chart ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-image: url('../image/list-circle.svg');
+}
+
+.request {
+    border-radius: 5px;
+    background: #F2F2F2;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.advantages__numeric {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.num {
+    max-width: 50%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.num img {
+    position: absolute;
+    z-index: 1;
+}
+
+.num p {
+    z-index: 2;
+}
+
+.form__vacancy {
+    background-color: #F2F2F2;
+    padding: 40px 0 70px;
+}
+
+.form__vacancy-inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inputs-left, .inputs-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.file__send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form__vacancy-inputs input {
+    outline: none;
+    border: none;
+    width: 600px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.file__send button {
+    padding: 16.5px 80px;
+}
+
+label {
+    color: #F02930;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+label:hover {
+    color: #1B1B1B;
+}
+
+@media screen and (max-width: 451px) {
+    .vacancy {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .open__vacancy-title {
+        text-align: center;
+    }
+
+    .open__vacancy-top, .open__vacancy-bottom {
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    .request {
+        margin: 14px 0;
+    }
+
+    .advantages__numeric {
+        flex-flow: column wrap;
+        flex: 1 0 34%;
+    }
+
+    .file__send {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .form__vacancy-inputs input {
+        width: 425px;
+    }
+
+    .form__vacancy-inputs {
+        max-width: 100%;
+    }
+}

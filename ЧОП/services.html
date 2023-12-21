@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/aboutCompany.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/font/stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+    <link rel=" icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon/site.webmanifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <title>ЧОП</title>
+</head>
+
+<body>
+    <section style='background-color: #0C2039;'>
+        <div class="container">
+            <div class="top__header">
+                <div class="adress">
+                    <img src="./image/address-mark.svg" alt="address">
+                    <h1 class='tiny-15'>г. Москва, Новинский бульвар, дом 20А, строение 3-6</h1>
+                </div>
+                <div class="email__phone">
+                    <div class='email'>
+                        <img src="./image/email.svg" alt="email address">
+                        <a class='adress_text' href="mailto:legionchop@gmail.com">legionchop@gmail.com</a>
+                    </div>
+                    <div class="phone__social-link">
+                        <a href="#"><img src="./image/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="#"><img src="./image/telegram.svg" alt="telegram"></a>
+                        <img src="./image/phone.svg" alt="phone">
+                        <a href="#" class='tiny-15'>+7 (495) 632-02-05</a>
+                    </div>
+                    <div class='navigator'>
+                        <nav>
+                            <a href='index.html' class='logo__link'>
+                                <img src="./image/logo.svg" alt="logo">
+                            </a>
+                            <ul class='menu__list'>
+                                <li class='about__title'><a href="aboutCompany.html" style='color: black;'>О предприятии
+                                        <img src="./image/arrow-down.svg" alt="arrow down"></a>
+                                    <ul class='about__title-popup'>
+                                        <li><a href="aboutCompany.html">О компании</a></li>
+                                        <li><a href="articles.html">Статьи</a></li>
+                                        <li><a href="vacancy.html">Вакансии</a></li>
+                                        <li><a href="rate.html">Благодарности</a></li>
+                                    </ul>
+                                </li>
+                                <li class='services__title'><a href="services.html" style='color: black;'>Услуги <img
+                                            src="./image/arrow-down.svg" alt="arrow down"></a>
+                                    <ul class='services__title-popup'>
+                                        <div class='services__title-popup-left'>
+                                            <li><a href="#">Охрана зданий</a></li>
+                                            <li><a href="#">Охрана бизнес-центров</a></li>
+                                            <li><a href="#">Охрана торговых центров</a></li>
+                                            <li><a href="#">Охрана офисов</a></li>
+                                            <li><a href="#">Охрана складов</a></li>
+                                            <li><a href="#">Охрана строительных площадок</a></li>
+                                            <li><a href="#">Охрана коттеджных поселков</a></li>
+                                            <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                                            <li><a href="#">Охрана жилых комплексов</a></li>
+                                        </div>
+                                        <div class='services__title-popup-right'>
+                                            <li><a href="#">
+                                                    Охрана магазинов</a></li>
+                                            <li><a href="#">Охрана банков</a></li>
+                                            <li><a href="#">Охрана квартир</a></li>
+                                            <li><a href="#">Охрана автостоянока</a></li>
+                                            <li><a href="#">Охрана АЗС</a></li>
+                                            <li><a href="#">Охрана гостиниц и отелей</a></li>
+                                            <li><a href="#">Охрана школ</a></li>
+                                            <li><a href="#">Охрана мероприятий</a></li>
+                                            <li><a href="#">Пультовая охрана</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li><a href="price.html" style='color: black;'>Цены</a></li>
+                                <li><a href="rate.html" style='color: black;'>Тарифы</a></li>
+                                <li><a href="certificates.html" style='color: black;'>Сертификаты</a></li>
+                                <li><a href="reviews.html" style='color: black;'>Отзывы</a></li>
+                                <li><a href="contacts.html" style='color: black;'>Конаткты</a></li>
+                            </ul>
+                            <div class='humburger' id='humbID'>
+                                <img src="./image/humburger.svg" alt="hamburger menu" id='humbIcon'>
+                            </div>
+                            <div class='humb__popup' id='popupID'>
+                                <img src="./image/close-humb.svg" alt="close humb" width='26px' height='26px'
+                                    id='closeIconID'>
+                                <ul class='humb__popup-list'>
+                                    <h1 class='humb-bold-text'>О предприятии</h1>
+                                    <li><a href="aboutCompany.html" class='humb-tiny-text'>О компании</a></li>
+                                    <li><a href="#" class='humb-tiny-text'>Статьи</a></li>
+                                    <li><a href="vacancy.html" class='humb-tiny-text'>Вакансии</a></li>
+                                    <li><a href="rate.html" class='humb-tiny-text'>Благодарности</a></li>
+                                    <h1 class='humb-bold-text'>Услуги</h1>
+                                    <div style='display: flex;'>
+                                        <div class='humb-popup-left'>
+                                            <li><a href="#">Охрана зданий</a></li>
+                                            <li><a href="#">Охрана бизнес-центров</a></li>
+                                            <li><a href="#">Охрана торговых центров</a></li>
+                                            <li><a href="#">Охрана офисов</a></li>
+                                            <li><a href="#">Охрана складов</a></li>
+                                            <li><a href="#">Охрана строительных площадок</a></li>
+                                            <li><a href="#">Охрана коттеджных поселков</a></li>
+                                            <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                                            <li><a href="#">Охрана жилых комплексов</a></li>
+                                        </div>
+                                        <div class='humb-popup-right'>
+                                            <li><a href="#">
+                                                    Охрана магазинов</a></li>
+                                            <li><a href="#">Охрана банков</a></li>
+                                            <li><a href="#">Охрана квартир</a></li>
+                                            <li><a href="#">Охрана автостоянока</a></li>
+                                            <li><a href="#">Охрана АЗС</a></li>
+                                            <li><a href="#">Охрана гостиниц и отелей</a></li>
+                                            <li><a href="#">Охрана школ</a></li>
+                                            <li><a href="#">Охрана мероприятий</a></li>
+                                            <li><a href="#">Пультовая охрана</a></li>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#" class='humb-bold-text'>Консультации</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Новости</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Галерея</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Конаткты</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </nav>
+                        <button style='border-radius: 0 5px 5px 0;'>Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='services__header'>
+        <div class="container">
+            <div class='mobile__center'>
+                <p class='disabled'><a href="index.html" class='disabled'>Главная</a> / <a href="aboutCompany.html"
+                        class='active__red'>Услуги</a> </p>
+                <h1 class='bold-45' style='margin-bottom: 30px;'>Услуги ЧОП “Легион”</h1>
+            </div>
+            <div class="spec__cards services__spec__cards">
+                <div class='spec__card' style='background-image: url(./image/spec_card_ex.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+                <div class='spec__card' style='background-image: url(./image/card2.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+                <div class='spec__card' style='background-image: url(./image/card3.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+                <div class='spec__card' style='background-image: url(./image/card4.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+                <div class='spec__card' style='background-image: url(./image/card5.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+                <div class='spec__card' style='background-image: url(./image/card6.webp);'>
+                    <h1 class='bold-25'>Личная охрана</h1>
+                    <p class='tiny-15'>Подразделение телохранителей формируется из лучших и наиболее опытных сотрудников
+                        ЧОП</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='services__info'>
+        <div class="container">
+            <h1>Основые виды охраны</h1>
+            <div class='services__info-titles'>
+                <div class='info-1'>
+                    <p class='tiny-17'>Охранная Фирма «ЛЕГИОН» поможет Вам не волноваться за сохранность дорогостоящей
+                        оргтехники и
+                        коммерческой информации. Комплексная вооруженная охрана объектов ЧОП даёт возможность полностью
+                        контролировать ситуацию.</p>
+                    <p class='tiny-17'>Видеонаблюдение позволяет отслеживать работу сотрудников офиса, выявлять
+                        возможные каналы утечки
+                        информации. Устанавливаемые металлодетекторы позволяют отследить движение металлических
+                        предметов не
+                        только внутрь помещения</p>
+                    <form action='#' class="about__wrapper-form">
+                        <div class="form-inputs services__form">
+                            <div class="form-titles-services">
+                                <h1 class='form-bold-25' style='margin-bottom: 6px;'>Получите бесплатную консультацию
+                                </h1>
+                                <h3 class='form-tiny-17'>Заполните форму и мы вам перезвоним в ближайшее время</h3>
+                            </div>
+                            <input type="text" placeholder='Имя'>
+                            <input type="tel" placeholder='Телефон'>
+                            <button>Отправить</button>
+                            <p class='tiny-15-form'>Заполняя данную формы соглашаетесь на обработку <br />персональных
+                                данных</p>
+                        </div>
+                    </form>
+                </div>
+                <div class='info-2'>
+                    <ul class='about__list tiny-17 services__list'>
+                        <li><strong>Вооруженная охрана имущества при транспортировке</strong> по территории РФ (наличие
+                            автотранспорта, в
+                            том числе, специальные бронированные (5 класс защиты) автомобили.)</li>
+                        <li><strong>Служба инкассации</strong> предназначена для обеспечения надежной сохранности
+                            рублевой и валютной
+                            наличности, ценных бумаг и других ценностей, являющихся собственностью наших клиентов.<br />
+                            <p style='margin-top: 15px;'>
+                                Безопасность осуществляемых перевозок и финансовых сделок, прежде всего, зависит от
+                                умело подобранного, грамотно подготовленного и квалифицированного, на основе
+                                психологической совместимости экипажа спецавтомобиля и в целом коллектива службы.</p>
+                        </li>
+                        <li><strong>Пультовая охрана</strong> - это комплекс мероприятий по мониторингу состояния и
+                            охраны удаленных
+                            стационарных и подвижных объектов: квартир, домов, магазинов, офисов, складских помещений,
+                            предприятий, а так же автомобилей и даже людей.</li>
+                        <li><strong>Система технических средств охраны и безопасности</strong> – самый современный
+                            компонент охраны
+                            объектов.<br />
+                            <p style='margin-top: 15px;'>Человек как элемент системы безопасности не может обеспечить
+                                высокий уровень
+                                готовности системы: он может отвлечься на личные нужды, быть недостаточно внимательным
+                                из-за плохого самочувствия, ему и его семье могут угрожать, сам может вступить в сговор
+                                с преступниками. Техника этих недостатков лишена.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="merits__info">
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1992</span>
+                    <p class='tiny-17'>С 1992 года на рынке</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1200</span>
+                    <p class='tiny-17'>Защищенных объектов
+                        и персон
+                    </p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>24/7</span>
+                    <p class='tiny-17'>На связи экипажы</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>400</span>
+                    <p class='tiny-17'>Более 400 выполненых объектов</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1000</span>
+                    <p class='tiny-17'>Установлевнных камер видеонаблюдения</p>
+                </div>
+            </div>
+
+    </section>
+    <section class=' price'>
+        <div class="container">
+            <div class="merits__titles">
+                <div class="merits__titles-left">
+                    <h3 class='tiny-gray-400'>Наши цены</h3>
+                    <h1 class='bold-700'>Тарифы</h1>
+                </div>
+                <div class='merits__titles-right'>
+                    <h3 class='tiny-17'>Мы имеем множество сертификатов и наград,<br />
+                        за время работы по своей профессии.</h3>
+                    <button>Смотреть все</button>
+                </div>
+            </div>
+            <div class='prices'>
+                <div class="price-card">
+                    <div class="price-titles">
+                        <h1 class='bold-25' style='margin-bottom: 6px;'>Стандарт
+                        </h1>
+                    </div>
+                    <div class='price-info'>
+                        <div style='text-align: center;'>
+                            <p class='tiny-17'><span class='bold-25-black'>105 060</span> руб./месяц</p>
+                            <p class='tiny-17'>от 144 руб/час</p>
+                        </div>
+                        <hr>
+                        <ul class='about__list tiny-17' style='margin-bottom: 34px;'>
+                            <li class='tiny-17'><span class='bold-15'>Без оружия</span></li>
+                            <li class='tiny-17'>Графика работы: <span class='bold-15'>15/15 вахта</span>
+                            </li>
+                            <li class='tiny-17'>Подготовка: <span class='bold-15'>4 разряд и выше</span>
+                            </li>
+                            <li class='tiny-17'>Опыт: <span class='bold-15'>от 1 года</span></li>
+                        </ul>
+                        <button style='width: 100%;'>Заказать</button>
+                    </div>
+                </div>
+                <div class="price-card">
+                    <div class="price-titles">
+                        <h1 class='bold-25' style='margin-bottom: 6px;'>Бизнес
+                        </h1>
+                    </div>
+                    <div class='price-info'>
+                        <div style='text-align: center;'>
+                            <p class='tiny-17'><span class='bold-25-black'>109 440</span> руб./месяц</p>
+                            <p class='tiny-17'>от 144 руб/час</p>
+                        </div>
+                        <hr>
+                        <ul class='about__list tiny-17' style='margin-bottom: 34px;'>
+                            <li class='tiny-17'><span class='bold-15'>Без оружия</span></li>
+                            <li class='tiny-17'>Графика работы: <span class='bold-15'>15/15 вахта</span>
+                            </li>
+                            <li class='tiny-17'>Подготовка: <span class='bold-15'>4 разряд и выше</span>
+                            </li>
+                            <li class='tiny-17'>Опыт: <span class='bold-15'>от 1 года</span></li>
+                        </ul>
+                        <button style='width: 100%;'>Заказать</button>
+                    </div>
+                </div>
+                <div class="price-card">
+                    <div class="price-titles">
+                        <h1 class='bold-25' style='margin-bottom: 6px;'>Премиум
+                        </h1>
+                    </div>
+                    <div class='price-info'>
+                        <div style='text-align: center;'>
+                            <p class='tiny-17'><span class='bold-25-black'>190 200</span> руб./месяц</p>
+                            <p class='tiny-17'>от 144 руб/час</p>
+                        </div>
+                        <hr>
+                        <ul class='about__list tiny-17' style='margin-bottom: 34px;'>
+                            <li class='tiny-17'><span class='bold-15'>Без оружия</span></li>
+                            <li class='tiny-17'>Графика работы: <span class='bold-15'>15/15 вахта</span>
+                            </li>
+                            <li class='tiny-17'>Подготовка: <span class='bold-15'>4 разряд и выше</span>
+                            </li>
+                            <li class='tiny-17'>Опыт: <span class='bold-15'>от 1 года</span></li>
+                        </ul>
+                        <button style='width: 100%;'>Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='questions'>
+        <div class="container">
+            <div class='questions__titles'>
+                <h1 class='bold-30'>Остались вопросы?</h1>
+                <p class='tiny-17-gray'>Вы не смогли найти то, что вас интересует?<br />
+                    Заполните форму, и мы свяжемся с Вами в ближайшее время</p>
+            </div>
+            <form action='#' class='questions__form'>
+                <input type="text" placeholder='Ваше Имя' class='questions__input'>
+                <input type="tel" placeholder='Телефон' class='questions__input'>
+                <button class='questions__button'>Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class='footer__head'>
+                <img src="./image/logo.svg" alt="logo">
+                <div class='footer__middle'>
+                    <div class="adress">
+                        <img src="./image/address-dark.svg" alt="adress">
+                        <h1 class='tiny-15' style='color: #505050;'>г. Москва, Новинский бульвар, дом 20А, строение 3-6
+                        </h1>
+                    </div>
+                    <div class='email'>
+                        <img src="./image/email-dark.svg" alt="email adress">
+                        <a class='adress_text' href="mailto:legionchop@gmail.com"
+                            style='color: #505050;'>legionchop@gmail.com</a>
+                    </div>
+                </div>
+                <div class="phone__social-link">
+                    <a href="#"><img src="./image/whatapp-dark.svg" alt="whatsapp"></a>
+                    <a href="#"><img src="./image/telegram-dark.svg" alt="telegram"></a>
+                    <img src="./image/phone-dark.svg" alt="phone">
+                    <a href="tel:+77956320205" style='color:#505050;'>+7 (495) 632-02-05</a>
+                </div>
+            </div>
+            <hr>
+            <div class='footer__list tiny-15-footer'>
+                <ul class='desktop'>
+                    <li><a href="#">О предприятии</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Консультации</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана зданий</a></li>
+                    <li><a href="#">Охрана бизнес-центров</a></li>
+                    <li><a href="#">Охрана торговых центров</a></li>
+                    <li><a href="#">Охрана офисов</a></li>
+                    <li><a href="#">Охрана складов</a></li>
+                    <li><a href="#">Охрана строительных площадок</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана коттеджных посёлков</a></li>
+                    <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                    <li><a href="#">Охрана жилых комплексов</a></li>
+                    <li><a href="#">Охрана магазинов</a></li>
+                    <li><a href="#">Охрана банков</a></li>
+                    <li><a href="#">Охрана квартир</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана автостоянок</a></li>
+                    <li><a href="#">Охрана АЗС</a></li>
+                    <li><a href="#">Охрана гостиниц и отелей</a></li>
+                    <li><a href="#">Охрана школ</a></li>
+                    <li><a href="#">Охрана мероприятий</a></li>
+                    <li><a href="#">Пультовая охрана</a></li>
+                </ul>
+            </div>
+            <div class='footer__mobile tiny-15-footer'>
+                <ul class=''>
+                    <li><a href="aboutCompany.html">О предприятии</a></li>
+                    <li><a href="rate.html">Услуги</a></li>
+                    <li><a href="#">Консультации</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="contacts.html">Конаткты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class='copy'>
+            <div class="container">
+                <div class='copy__info'>
+                    <h2 class='tiny-15-footer' style='color: rgba(255, 255, 255, 0.50);'>Все права защищены © 2023
+                        Legion. All rights reserved.</h2>
+                    <h2 class='tiny-15-footer' style='color: rgba(255, 255, 255, 0.50);'>Политика конфиденциальности
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='./js/main.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/aboutCompany.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/contacts.css">
+    <link rel="stylesheet" href="./styles/price.css">
+    <link rel="stylesheet" href="./styles/font/stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+    <link rel=" icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon/site.webmanifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <title>ЧОП</title>
+</head>
+
+<body>
+    <section style='background-color: #0C2039;'>
+        <div class="container">
+            <div class="top__header">
+                <div class="adress">
+                    <img src="./image/address-mark.svg" alt="address">
+                    <h1 class='tiny-15'>г. Москва, Новинский бульвар, дом 20А, строение 3-6</h1>
+                </div>
+                <div class="email__phone">
+                    <div class='email'>
+                        <img src="./image/email.svg" alt="email address">
+                        <a class='adress_text' href="mailto:legionchop@gmail.com">legionchop@gmail.com</a>
+                    </div>
+                    <div class="phone__social-link">
+                        <a href="#"><img src="./image/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="#"><img src="./image/telegram.svg" alt="telegram"></a>
+                        <img src="./image/phone.svg" alt="phone">
+                        <a href="#" class='tiny-15'>+7 (495) 632-02-05</a>
+                    </div>
+                    <div class='navigator'>
+                        <nav>
+                            <a href='index.html' class='logo__link'>
+                                <img src="./image/logo.svg" alt="logo">
+                            </a>
+                            <ul class='menu__list'>
+                                <li class='about__title'><a href="aboutCompany.html" style='color: black;'>О предприятии
+                                        <img src="./image/arrow-down.svg" alt="arrow down"></a>
+                                    <ul class='about__title-popup'>
+                                        <li><a href="aboutCompany.html">О компании</a></li>
+                                        <li><a href="articles.html">Статьи</a></li>
+                                        <li><a href="vacancy.html">Вакансии</a></li>
+                                        <li><a href="rate.html">Благодарности</a></li>
+                                    </ul>
+                                </li>
+                                <li class='services__title'><a href="services.html" style='color: black;'>Услуги <img
+                                            src="./image/arrow-down.svg" alt="arrow down"></a>
+                                    <ul class='services__title-popup'>
+                                        <div class='services__title-popup-left'>
+                                            <li><a href="#">Охрана зданий</a></li>
+                                            <li><a href="#">Охрана бизнес-центров</a></li>
+                                            <li><a href="#">Охрана торговых центров</a></li>
+                                            <li><a href="#">Охрана офисов</a></li>
+                                            <li><a href="#">Охрана складов</a></li>
+                                            <li><a href="#">Охрана строительных площадок</a></li>
+                                            <li><a href="#">Охрана коттеджных поселков</a></li>
+                                            <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                                            <li><a href="#">Охрана жилых комплексов</a></li>
+                                        </div>
+                                        <div class='services__title-popup-right'>
+                                            <li><a href="#">
+                                                    Охрана магазинов</a></li>
+                                            <li><a href="#">Охрана банков</a></li>
+                                            <li><a href="#">Охрана квартир</a></li>
+                                            <li><a href="#">Охрана автостоянока</a></li>
+                                            <li><a href="#">Охрана АЗС</a></li>
+                                            <li><a href="#">Охрана гостиниц и отелей</a></li>
+                                            <li><a href="#">Охрана школ</a></li>
+                                            <li><a href="#">Охрана мероприятий</a></li>
+                                            <li><a href="#">Пультовая охрана</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li><a href="price.html" style='color: black;'>Цены</a></li>
+                                <li><a href="rate.html" style='color: black;'>Тарифы</a></li>
+                                <li><a href="certificates.html" style='color: black;'>Сертификаты</a></li>
+                                <li><a href="reviews.html" style='color: black;'>Отзывы</a></li>
+                                <li><a href="contacts.html" style='color: black;'>Конаткты</a></li>
+                            </ul>
+                            <div class='humburger' id='humbID'>
+                                <img src="./image/humburger.svg" alt="hamburger menu" id='humbIcon'>
+                            </div>
+                            <div class='humb__popup' id='popupID'>
+                                <img src="./image/close-humb.svg" alt="close humb" width='26px' height='26px'
+                                    id='closeIconID'>
+                                <ul class='humb__popup-list'>
+                                    <h1 class='humb-bold-text'>О предприятии</h1>
+                                    <li><a href="aboutCompany.html" class='humb-tiny-text'>О компании</a></li>
+                                    <li><a href="#" class='humb-tiny-text'>Статьи</a></li>
+                                    <li><a href="vacancy.html" class='humb-tiny-text'>Вакансии</a></li>
+                                    <li><a href="rate.html" class='humb-tiny-text'>Благодарности</a></li>
+                                    <h1 class='humb-bold-text'>Услуги</h1>
+                                    <div style='display: flex;'>
+                                        <div class='humb-popup-left'>
+                                            <li><a href="#">Охрана зданий</a></li>
+                                            <li><a href="#">Охрана бизнес-центров</a></li>
+                                            <li><a href="#">Охрана торговых центров</a></li>
+                                            <li><a href="#">Охрана офисов</a></li>
+                                            <li><a href="#">Охрана складов</a></li>
+                                            <li><a href="#">Охрана строительных площадок</a></li>
+                                            <li><a href="#">Охрана коттеджных поселков</a></li>
+                                            <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                                            <li><a href="#">Охрана жилых комплексов</a></li>
+                                        </div>
+                                        <div class='humb-popup-right'>
+                                            <li><a href="#">
+                                                    Охрана магазинов</a></li>
+                                            <li><a href="#">Охрана банков</a></li>
+                                            <li><a href="#">Охрана квартир</a></li>
+                                            <li><a href="#">Охрана автостоянока</a></li>
+                                            <li><a href="#">Охрана АЗС</a></li>
+                                            <li><a href="#">Охрана гостиниц и отелей</a></li>
+                                            <li><a href="#">Охрана школ</a></li>
+                                            <li><a href="#">Охрана мероприятий</a></li>
+                                            <li><a href="#">Пультовая охрана</a></li>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#" class='humb-bold-text'>Консультации</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Новости</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Галерея</a></li>
+                                        <li><a href="#" class='humb-bold-text'>Конаткты</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </nav>
+                        <button style='border-radius: 0 5px 5px 0;'>Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='price__titles'>
+        <div class="container">
+
+            <div style='margin-bottom: 30px;'>
+                <p class='disabled'><a href="index.html" class='disabled'>Главная</a> / <a href="aboutCompany.html"
+                        class='active__red'>Цены</a> </p>
+                <h1 class='bold-45' style='margin-bottom: 20px;'>Цены охранного предприятия ЧОП “Легион”</h1>
+                <p class='tiny-17'>Альянс берет под охрану различные частные, коммерческие и государственные объекты. С
+                    основным списком
+                    их видом можно ознакомиться в прайс-листе, опубликованном на нашем корпоративном сайте. Там же есть
+                    информация и о базовой цене услуг. Но на этом перечень не заканчивается. Сотрудники «Альянса» готовы
+                    обеспечить безопасность людей и сохранность материальных ценностей где угодно. Для этого у нас есть
+                    хорошо подготовленный персонал, все необходимые технические средства и разработанная стратегия
+                    защиты.</p>
+            </div>
+        </div>
+    </section>
+    <section class='price__info'>
+        <div class="container">
+            <h3 class='bold-30' style='color: #1B1B1B;'>Личная охрана</h3>
+            <table>
+                <caption align='left' class='bold-20'>Телохранитель со специальными средствами </caption>
+                <tr>
+                    <td align='left'>Почасовая оплата (при заказе менее 18 часов)</td>
+                    <td align='right'>800 рублей в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Посуточная оплата (при заказе более 24 часов)</td>
+                    <td align='right'>15 000 рублей в сутки</td>
+                </tr>
+                <tr>
+                    <td align='left'>Договор на месяц (работа до 12 часов ежедневно кроме выходных)</td>
+                    <td align='right'>от 90 000 рублей в месяц</td>
+                </tr>
+                <tr>
+                    <td align='left'>Договор на месяц (работа круглосуточно)</td>
+                    <td align='right'>140 000 рублей в месяц</td>
+                </tr>
+            </table>
+            <table>
+                <caption align='left' class='bold-20'>Телохранитель с оружием</caption>
+                <tr>
+                    <td align='left'>Почасовая оплата (при заказе менее 18 часов)</td>
+                    <td align='right'>1 200 рублей в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Посуточная оплата (при заказе более 24 часов)</td>
+                    <td align='right'>25 000 рублей в сутки</td>
+                </tr>
+                <tr>
+                    <td align='left'>Договор на месяц (работа до 12 часов ежедневно кроме выходных)</td>
+                    <td align='right'>120 000 рублей в месяц</td>
+                </tr>
+                <tr>
+                    <td align='left'>Договор на месяц (работа круглосуточно)</td>
+                    <td align='right'>160 000 рублей в месяц</td>
+                </tr>
+            </table>
+            <table>
+                <caption align='left' class='bold-20'>Сопровождение грузов</caption>
+                <tr>
+                    <td align='left'>Сопровождение автотранспортом
+                    </td>
+                    <td align='right'>от 4000 рублей в сутки + оплата обратной дороги</td>
+                </tr>
+                <tr>
+                    <td align='left'>Сопровождение ЖД транспортом</td>
+                    <td align='right'>от 4000 рублей в сутки + оплата обратной дороги</td>
+                </tr>
+                <tr>
+                    <td align='left'>Сопровождение воздушным транспортом</td>
+                    <td align='right'>от 4000 рублей в сутки + оплата обратной дороги</td>
+                </tr>
+            </table>
+            <table>
+                <caption align='left' class='bold-20'>Охрана мероприятий </caption>
+                <tr>
+                    <td align='leftleft'>Корпоративы
+                    </td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Деловые мероприятия</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Частные мероприятия</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Выставки</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Презентации</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Банкеты</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Концерты</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Театры</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Кинотеатры</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='leftleft'>Массовые мероприятия</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Церемонии открытия объекта</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Городские мероприятия</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Спортивные мероприятия</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+                <tr>
+                    <td align='left'>Праздники</td>
+                    <td align='right'>От 600 в час</td>
+                </tr>
+            </table>
+            <table style='margin-top: 75px;'>
+                <tr>
+                    <td align='left'>Пультовая охрана
+                    </td>
+                    <td align='right'>от 3000 рублей в месяц</td>
+                </tr>
+                <tr>
+                    <td align='left'>Кинологическая служба</td>
+                    <td align='right'>от 4000 рублей в сутки + оплата обратной дороги</td>
+                </tr>
+                <tr>
+                    <td align='left'>Инкассация</td>
+                    <td align='right'>По запросу</td>
+                </tr>
+                <tr>
+                    <td align='left'>Круглосуточные посты</td>
+                    <td align='right'>По запросу</td>
+                </tr>
+                <tr>
+                    <td align='left'>Предоставление технических средств</td>
+                    <td align='right'>от 10 000 рублей + установка 4 камер видеонаблюдения</td>
+                </tr>
+                <tr>
+                    <td align='left'>Информационно технические услуги</td>
+                    <td align='right'>По запросу</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class='merits'>
+        <div class="container">
+            <div class="merits__titles">
+                <div class="merits__titles-left">
+                    <h3 class='tiny-gray-400'>Наши заслуги</h3>
+                    <h1 class='bold-700'>Награды и сертификаты</h1>
+                </div>
+                <div class='merits__titles-right'>
+                    <h3 class='tiny-17'>Мы имеем множество сертификатов и наград,<br />
+                        за время работы по своей профессии.</h3>
+                    <button>Смотреть все</button>
+                </div>
+            </div>
+            <div class='certificates'>
+                <button class='arrow left' id='slider-arrow-prevM'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                        <path
+                            d="M7.66978 0.31074C7.23487 -0.10358 6.52967 -0.10358 6.09477 0.31074L0.651642 5.50095C-0.217493 6.32973 -0.217159 7.67264 0.652311 8.501L6.09877 13.6892C6.53368 14.1036 7.23887 14.1036 7.6738 13.6892C8.10873 13.2749 8.10873 12.6031 7.6738 12.1889L3.01225 7.74828C2.57724 7.334 2.57735 6.66222 3.01225 6.24794L7.66978 1.8111C8.10471 1.39679 8.10471 0.725049 7.66978 0.31074Z" />
+                    </svg>
+                </button>
+                <button class='arrow right' id='slider-arrow-nextM'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                        <path
+                            d="M0.330222 13.6893C0.765134 14.1036 1.47033 14.1036 1.90523 13.6893L7.34836 8.49905C8.21749 7.67027 8.21716 6.32736 7.34769 5.49899L1.90123 0.310795C1.46632 -0.1036 0.761126 -0.1036 0.326202 0.310795C-0.108734 0.725082 -0.108734 1.39685 0.326202 1.81114L4.98775 6.25172C5.42276 6.666 5.42265 7.33778 4.98775 7.75206L0.330222 12.1889C-0.104714 12.6032 -0.104714 13.275 0.330222 13.6893Z" />
+                    </svg>
+                </button>
+                <div class='sliderM'>
+                    <div class="slider__lineM" id='slm'>
+                        <img src="./image/gram1.webp" alt="certificate1">
+                        <img src="./image/gram2.webp" alt="certificate2">
+                        <img src="./image/gram3.webp" alt="certificate3">
+                        <img src="./image/gram4.webp" alt="certificate4">
+                        <img src="./image/ser1.webp" alt="certificate5">
+                        <img src="./image/ser2.webp" alt="certificate6">
+                        <img src="./image/ser3.webp" alt="certificate7">
+                        <img src="./image/ser4.webp" alt="certificate8">
+                        <img src="./image/ser5.webp" alt="certificate9">
+                        <img src="./image/ser6.webp" alt="certificate10">
+                    </div>
+                </div>
+            </div>
+            <div class="merits__info">
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1992</span>
+                    <p class='tiny-17'>С 1992 года на рынке</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1200</span>
+                    <p class='tiny-17'>Защищенных объектов
+                        и персон
+                    </p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>24/7</span>
+                    <p class='tiny-17'>На связи экипажы</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>400</span>
+                    <p class='tiny-17'>Более 400 выполненых объектов</p>
+                </div>
+                <div class="info">
+                    <span class=' red-45' style='margin-bottom: 6px;'>1000</span>
+                    <p class='tiny-17'>Установлевнных камер видеонаблюдения</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='questions'>
+        <div class="container">
+            <div class='questions__titles'>
+                <h1 class='bold-30'>Остались вопросы?</h1>
+                <p class='tiny-17-gray'>Вы не смогли найти то, что вас интересует?<br />
+                    Заполните форму, и мы свяжемся с Вами в ближайшее время</p>
+            </div>
+            <form action='#' class='questions__form'>
+                <input type="text" placeholder='Ваше Имя' class='questions__input'>
+                <input type="tel" placeholder='Телефон' class='questions__input'>
+                <button class='questions__button'>Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class='footer__head'>
+                <img src="./image/logo.svg" alt="logo">
+                <div class='footer__middle'>
+                    <div class="adress">
+                        <img src="./image/address-dark.svg" alt="adress">
+                        <h1 class='tiny-15' style='color: #505050;'>г. Москва, Новинский бульвар, дом 20А, строение 3-6
+                        </h1>
+                    </div>
+                    <div class='email'>
+                        <img src="./image/email-dark.svg" alt="email adress">
+                        <a class='adress_text' href="mailto:legionchop@gmail.com"
+                            style='color: #505050;'>legionchop@gmail.com</a>
+                    </div>
+                </div>
+                <div class="phone__social-link">
+                    <a href="#"><img src="./image/whatapp-dark.svg" alt="whatsapp"></a>
+                    <a href="#"><img src="./image/telegram-dark.svg" alt="telegram"></a>
+                    <img src="./image/phone-dark.svg" alt="phone">
+                    <a href="tel:+77956320205" style='color:#505050;'>+7 (495) 632-02-05</a>
+                </div>
+            </div>
+            <hr>
+            <div class='footer__list tiny-15-footer'>
+                <ul class='desktop'>
+                    <li><a href="#">О предприятии</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Консультации</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана зданий</a></li>
+                    <li><a href="#">Охрана бизнес-центров</a></li>
+                    <li><a href="#">Охрана торговых центров</a></li>
+                    <li><a href="#">Охрана офисов</a></li>
+                    <li><a href="#">Охрана складов</a></li>
+                    <li><a href="#">Охрана строительных площадок</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана коттеджных посёлков</a></li>
+                    <li><a href="#">Охрана ТСЖ (МКД)</a></li>
+                    <li><a href="#">Охрана жилых комплексов</a></li>
+                    <li><a href="#">Охрана магазинов</a></li>
+                    <li><a href="#">Охрана банков</a></li>
+                    <li><a href="#">Охрана квартир</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Охрана автостоянок</a></li>
+                    <li><a href="#">Охрана АЗС</a></li>
+                    <li><a href="#">Охрана гостиниц и отелей</a></li>
+                    <li><a href="#">Охрана школ</a></li>
+                    <li><a href="#">Охрана мероприятий</a></li>
+                    <li><a href="#">Пультовая охрана</a></li>
+                </ul>
+            </div>
+            <div class='footer__mobile tiny-15-footer'>
+                <ul class=''>
+                    <li><a href="aboutCompany.html">О предприятии</a></li>
+                    <li><a href="rate.html">Услуги</a></li>
+                    <li><a href="#">Консультации</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="contacts.html">Конаткты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class='copy'>
+            <div class="container">
+                <div class='copy__info'>
+                    <h2 class='tiny-15-footer' style='color: rgba(255, 255, 255, 0.50);'>Все права защищены © 2023
+                        Legion. All rights reserved.</h2>
+                    <h2 class='tiny-15-footer' style='color: rgba(255, 255, 255, 0.50);'>Политика конфиденциальности
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script async src='./js/only_slider.js'></script>
+</body>
+
+</html>

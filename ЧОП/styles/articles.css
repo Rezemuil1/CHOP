@@ -1,0 +1,33 @@
+.articles {
+    background-color: #F2F2F2;
+    padding: 70px 0 70px;
+}
+
+.articles__cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.article__card {
+    max-width: 400px;
+    margin-bottom: 40px;
+    min-height: 420px;
+}
+
+.article__card h1 {
+    margin: 16px 0 16px;
+}
+
+@media screen and (max-width: 451px) {
+    .articles {
+        text-align: center;
+        padding: 90px 0 70px;
+    }
+
+    .articles__cards {
+        justify-content: center;
+    }
+
+}

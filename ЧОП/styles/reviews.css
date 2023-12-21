@@ -1,0 +1,19 @@
+.reviews__header {
+    background-color: #F2F2F2;
+    padding: 97px 0 84px;
+}
+
+.reviews__images {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 17px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 451px) {
+    .reviews__images img {
+        width: 100%;
+    }
+
+}
